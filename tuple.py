@@ -1,0 +1,10 @@
+
+my_tuple = ("apple", "banana", "cherry", 1, 2, 3)
+my_list = list(my_tuple)
+print(f"Original Tuple: {my_tuple}")
+print(f"Type of Original: {type(my_tuple)}")
+print("-" * 30)
+print(f"Converted List: {my_list}")
+print(f"Type of Converted: {type(my_list)}")
+my_list.append("orange")
+print(f"\nList after appending an item: {my_list}")
