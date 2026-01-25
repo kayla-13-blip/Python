@@ -1,0 +1,2 @@
+Student: & C:/Users/SHOLOTAN/AppData/Local/Python/pythoncore-3.14-64/python.exe "c:/Users/SHOLOTAN/OneDrive/Desktop/Coding/Python/File Handling/access.py" | Favorite Subject: maths
+Student: odunayo | Favorite Subject: maths
