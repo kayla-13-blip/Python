@@ -1,0 +1,19 @@
+def multiply_one_iteration(n, m):
+    """
+    Multiplies N and M in a single step using the * operator.
+    """
+    return n * m
+
+def multiply_n_iterations(n, m):
+    """
+    Multiplies N and M by adding M to a total, N times.
+    """
+    total = 0
+    for _ in range(n):
+        total += m
+    return total
+
+# Example usage:
+n, m = 5, 10
+print(f"O(1) Result: {multiply_one_iteration(n, m)}")
+print(f"O(N) Result: {multiply_n_iterations(n, m)}")
